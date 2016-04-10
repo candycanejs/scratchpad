@@ -1,9 +1,8 @@
-import { jsonApiSupport } from 'candycane/decorators/actions';
-import Action from 'candycane/action';
+import { jsonApiSupport } from 'candycane/lib/decorators/actions';
+import Action from 'candycane/lib/action';
 
 @jsonApiSupport('users')
 export default class CourseIndex extends Action {
-
   /**
    * Simplified promise aware hook for finding data
    * @return {any} POJO or Promise of data

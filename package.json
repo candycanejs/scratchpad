@@ -19,7 +19,9 @@
   "dependencies": {
     "bcrypt": "^0.8.5",
     "body-parser": "^1.14.1",
+    "bookshelf": "^0.9.4",
     "express": "^4.13.3",
+    "jsonapi-mapper": "^0.7.8",
     "knex": "^0.10.0-rc1",
     "morgan": "^1.6.1",
     "multer": "^1.1.0",
