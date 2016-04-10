@@ -28,7 +28,7 @@ const container = {
 const router = new Router(app, container);
 
 app.get('/', (req, res) => {
-  res.send('version 1');
+  res.send('version 2');
 });
 
 router.resource('/courses', 'courses', (router) => {
@@ -43,6 +43,4 @@ router.resource('/users', 'users', (router) => {
 
 router.post('/login', 'auth/login');
 
-const server = app.listen(3000, function () {
-  console.log('Express listening on port 3000');
-});
+export default app;
