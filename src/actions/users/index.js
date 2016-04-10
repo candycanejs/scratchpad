@@ -1,5 +1,5 @@
-import { jsonApiSupport } from '../../lib/decorators/actions';
-import Action from '../../lib/action';
+import { jsonApiSupport } from 'candycane/decorators/actions';
+import Action from 'candycane/action';
 
 @jsonApiSupport('users', {collection: true})
 export default class CourseIndex extends Action {

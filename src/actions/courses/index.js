@@ -1,6 +1,6 @@
-import { createAfterHook } from '../../lib/decorators/action-hook-helpers';
+import { createAfterHook } from 'candycane/decorators/action-hook-helpers';
 
-import Action from '../../lib/action';
+import Action from 'candycane/action';
 
 const slowDown = createAfterHook(function(data) {
   return new Promise((resolve, reject) => {

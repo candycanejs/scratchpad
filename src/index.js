@@ -17,8 +17,8 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-import Loader from './lib/loader';
-import Router from './lib/router';
+import Loader from 'candycane//loader';
+import Router from 'candycane//router';
 const loader = new Loader(__dirname);
 const container = {
   loader,

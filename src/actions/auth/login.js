@@ -1,5 +1,5 @@
-import { jsonApiSupport } from '../../lib/decorators/actions';
-import Action from '../../lib/action';
+import { jsonApiSupport } from 'candycane/lib/decorators/actions';
+import Action from 'candycane/lib/action';
 import bcrypt from 'bcrypt';
 
 const userNotFound = Promise.reject({
